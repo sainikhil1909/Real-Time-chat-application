@@ -1,6 +1,6 @@
 (function () {
   const app = document.querySelector(".app");
-  const socket = io();
+ const socket = io("https://real-time-chat-application-64fb.onrender.com");
   let uname;
 
   // Join
